@@ -84,7 +84,6 @@ public class Notation {
     public static double evaluatePostfixExpression(String postfix){
         MyStack<Double> operands = new MyStack<>(20);
         for(Character c : postfix.toCharArray()){
-            System.out.println(operands.toString(" "));
             if(c == ' ') continue;
             else if(Character.isDigit(c)){
                 operands.push(Double.parseDouble(c.toString()));

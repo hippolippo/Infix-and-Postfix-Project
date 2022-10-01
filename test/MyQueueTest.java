@@ -62,7 +62,19 @@ public class MyQueueTest {
 	@Test
 	public void testDequeueStudent() {
 		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		doubleQ = new MyQueue<>(4);
+		try{
+			doubleQ.dequeue();
+			assertTrue("This should have caused an QueueUnderflowException", false);
+		}
+			catch (QueueUnderflowException e){
+			assertTrue("This should have caused an QueueUnderflowException", true);
+		}
+			catch (Exception e){
+			assertTrue("This should have caused an QueueUnderflowException", false);
+		}
+		doubleQ.enqueue(10.1);
+		assertEquals(doubleQ.dequeue(), 10.1, .001);
 	}
 
 	@Test
@@ -97,8 +109,21 @@ public class MyQueueTest {
 
 	@Test
 	public void testEnqueueStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		doubleQ = new MyQueue<>(2);
+		doubleQ.enqueue(1.4);
+		assertEquals(doubleQ.size(), 1);
+		doubleQ.enqueue(2.4);
+		assertEquals(doubleQ.size(), 2);
+		try{
+			doubleQ.enqueue(23.1);
+			assertTrue("This should have caused an QueueOverflowException", false);
+		}
+			catch (QueueOverflowException e){
+			assertTrue("This should have caused an QueueOverflowException", true);
+		}
+			catch (Exception e){
+			assertTrue("This should have caused an QueueOverflowException", false);
+		}
 	}
 
 	@Test
@@ -120,8 +145,11 @@ public class MyQueueTest {
 	
 	@Test
 	public void testToStringStudent() {
-		//Use the doubleQ for student tests
-		fail("Not yet implemented");
+		doubleQ = new MyQueue<>(2);
+		doubleQ.enqueue(23.1);
+		doubleQ.enqueue(2.3);
+		assertEquals(doubleQ.toString(), "23.12.3");
+		assertEquals(doubleQ.toString(" "), "23.1 2.3");
 	}
 
 	@Test

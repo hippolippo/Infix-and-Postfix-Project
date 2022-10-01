@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb2171db-c3ea-472e-9033-31094e845b40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InvalidNotationFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Notation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueueInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueueOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QueueUnderflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackOverflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackUnderflowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MyQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MyStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/NotationTest.java" afterDir="false" />
+    <list default="true" id="bb2171db-c3ea-472e-9033-31094e845b40" name="Changes" comment="Passes Public Tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Notation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MyQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MyQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/MyStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,41 +64,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotationTest.testComplexEvaluatePostfixExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyQueueTest.testToStringStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project 2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NotationTest" />
-      <option name="METHOD_NAME" value="testComplexEvaluatePostfixExpression" />
+      <option name="MAIN_CLASS_NAME" value="MyQueueTest" />
+      <option name="METHOD_NAME" value="testToStringStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotationTest.testEasyConvertPostfixToInfix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testPopStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project 2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NotationTest" />
-      <option name="METHOD_NAME" value="testEasyConvertPostfixToInfix" />
+      <option name="MAIN_CLASS_NAME" value="MyStackTest" />
+      <option name="METHOD_NAME" value="testPopStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotationTest.testIntermediateConvertPostfixToInfix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testPushStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project 2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NotationTest" />
-      <option name="METHOD_NAME" value="testIntermediateConvertPostfixToInfix" />
+      <option name="MAIN_CLASS_NAME" value="MyStackTest" />
+      <option name="METHOD_NAME" value="testPushStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotationTest.testInvalidPostfixExpressionB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyStackTest.testToStringStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project 2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NotationTest" />
-      <option name="METHOD_NAME" value="testInvalidPostfixExpressionB" />
+      <option name="MAIN_CLASS_NAME" value="MyStackTest" />
+      <option name="METHOD_NAME" value="testToStringStudent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,10 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Project 2" />
-        <item itemvalue="JUnit.NotationTest.testComplexEvaluatePostfixExpression" />
-        <item itemvalue="JUnit.NotationTest.testInvalidPostfixExpressionB" />
-        <item itemvalue="JUnit.NotationTest.testEasyConvertPostfixToInfix" />
-        <item itemvalue="JUnit.NotationTest.testIntermediateConvertPostfixToInfix" />
+        <item itemvalue="JUnit.MyStackTest.testPopStudent" />
+        <item itemvalue="JUnit.MyStackTest.testPushStudent" />
+        <item itemvalue="JUnit.MyStackTest.testToStringStudent" />
+        <item itemvalue="JUnit.MyQueueTest.testToStringStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +123,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664587553224</updated>
     </task>
+    <task id="LOCAL-00001" summary="Passes Public Tests">
+      <created>1664595597203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664595597203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Passes Public Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passes Public Tests" />
   </component>
 </project>
